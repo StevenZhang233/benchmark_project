@@ -1,0 +1,25 @@
+# benchmark_utils.py 所需依赖
+
+# 网络请求
+requests
+
+# 异步并发请求
+concurrent-log-handler  # （标准库 concurrent.futures 已包含，仅日志用）
+
+# 绘图库
+matplotlib
+
+# 处理 CSV 文件
+pandas  # 推荐，虽然标准库 csv 已支持，但 pandas 更方便
+
+# GPU监控（nvidia-smi 调用，通常不额外装包，但如果需要解析，可以加）
+# subprocess 是标准库，无需额外安装
+
+# 正则处理
+re  # 标准库，无需额外安装
+
+# 文件系统相关
+os  # 标准库，无需额外安装
+
+# 其他基本模块
+threading
